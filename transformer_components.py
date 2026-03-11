@@ -8,10 +8,10 @@ Implementa as três sub-camadas do Encoder:
 import numpy as np
 
 # Hiperparâmetros
-D_MODEL = 64          # dimensão do modelo  (paper: 512)
-D_K     = 64          # dimensão de Q e K   (paper: 64 com 8 heads)
+D_MODEL = 64          # dimensão do modelo
+D_K     = 64          # dimensão de Q e K
 D_V     = 64          # dimensão de V
-D_FF    = 256         # dimensão interna do FFN (paper: 2048; aqui 4×d_model)
+D_FF    = 256         # dimensão interna do FFN
 EPSILON = 1e-6        # epsilon para LayerNorm
 
 
